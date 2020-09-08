@@ -186,6 +186,12 @@
 
 .vertical-menu {
   width: 210px;
+  color: #FFFFFF;
+}
+
+.vertical-menu_content_footer {
+  width: 255px;
+  margin-bottom: 40px;
 }
 
 .vertical-menu__title {
@@ -193,6 +199,11 @@
   font-weight: 500;
   font-size: 30px;
   letter-spacing: -0.01em;
+}
+
+.vertical-menu__title_content_footer {
+  font-size: 21px;
+  margin-bottom: 20px;
 }
 
 .vertical-menu__list {
@@ -205,6 +216,10 @@
   margin-bottom: 15px;
 }
 
+.vertical-menu__list-item_content_footer {
+  margin-bottom: 10px;
+}
+
 .vertical-menu__list-item:last-child {
   margin-bottom: 0;
 }
@@ -215,12 +230,19 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  color: #FFFFFF;
+}
+
+.vertical-menu__link_content_footer {
+  font-size: 14px;
+  line-height: 135%;
+  color: #E0E0E0;
 }
 
 .vertical-menu__link:hover {
   text-decoration-line: underline;
+  color: #FFC41E;
 }
+
 
 /* !navigation */
 
@@ -398,3 +420,101 @@
 }
 /* !news */
 
+/* footer */
+.footer {
+  background: #30BCC9;
+}
+
+.footer__content {
+  width: 1115px;
+  margin: 0 auto;
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer__app {
+  width: 160px;
+  height: 47px;
+  background: url(../images/ios.png) no-repeat;
+  background-size: cover;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.footer__app_android {
+  background: url(../images/android.png) no-repeat;
+}
+
+.soc {
+ display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.soc__link {
+  height: 25px;
+}
+
+.soc__link_youtube {
+  width: 35px;
+  background: url(../images/youtube.svg) no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.soc__link_vk {
+  width: 44px;
+  background: url(../images/vk.svg) no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.soc__link_facebook {
+  width: 13px;
+  background: url(../images/facebook.svg) no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.soc__link_instagram {
+  width: 25px;
+  background: url(../images/instagram.svg) no-repeat;
+  background-size: cover;
+  display: block;
+}
+
+.subscribe {
+
+}
+
+.subscribe__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 135%;
+  color: #E0E0E0;
+}
+
+.subscribe__email-wrapper {
+  display: flex;
+}
+
+.subscribe__email {
+  width: 215px;
+  height: 40px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+}
+
+.subscribe__send {
+  width: 40px;
+  height: 40px;
+  background: url(../images/send.svg) no-repeat red center;
+  background-size: 18px 18px;
+  display: inline-block;
+  cursor: pointer;
+}
+/* !footer */
