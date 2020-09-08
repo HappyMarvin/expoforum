@@ -1,6 +1,6 @@
 .page {
   max-width: 1920px;
-  min-width: 1360px;
+  min-width: 1130px;
   font-family: Arial, sans-serif;
 }
 
@@ -14,8 +14,9 @@
 
 .header__menu-wrapper {
   min-height: 90px;
-  border-bottom: 2px solid #FFFFFF;
-  padding: 0 180px;
+  max-width: 1360px;
+  padding: 0 10px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,6 +85,10 @@
   opacity: 0.7;
 }
 
+.header-line {
+  border: 1px solid #FFFFFF;
+}
+
 .header__title-wrapper {
   width: 1115px;
   margin: 0 auto;
@@ -115,6 +120,10 @@
   color: #FFFFFF;
   text-decoration: none;
   display: block;
+}
+
+.header__link:hover {
+  text-decoration: underline;
 }
 
 .header__block {
@@ -167,6 +176,10 @@
   color: #FFFFFF;
   text-decoration: none;
   font-size: 14px;
+}
+
+.header__card-link:hover {
+  text-decoration: underline;
 }
 /* !header */
 
