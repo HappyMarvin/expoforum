@@ -7,7 +7,7 @@
 /* header*/
 .header {
   min-height: 800px;
-  background: url(../images/bgc.png) no-repeat;
+  background: url(../images/bgc.jpg) no-repeat;
   background-size: cover;
   color: #FFFFFF;
 }
@@ -195,6 +195,10 @@
   margin: 0 auto;
   width: 1115px;
   justify-content: space-between;
+}
+
+.navigation__title {
+  display: none;
 }
 
 .vertical-menu {
@@ -450,14 +454,14 @@
 .footer__app {
   width: 160px;
   height: 47px;
-  background: url(../images/ios.png) no-repeat;
+  background: url(../images/ios.jpg) no-repeat;
   background-size: cover;
   display: block;
   margin-bottom: 15px;
 }
 
 .footer__app_android {
-  background: url(../images/android.png) no-repeat;
+  background: url(../images/android.jpg) no-repeat;
 }
 
 .soc {
