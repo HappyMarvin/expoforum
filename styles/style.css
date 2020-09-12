@@ -68,12 +68,14 @@
   background: url(../images/Search.svg) no-repeat;
   background-size: cover;
   border: none;
-  z-index: 2;
 }
 
 .header__search-text {
   display: none;
   width: 175px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
 }
 
 
