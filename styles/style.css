@@ -68,6 +68,7 @@
   background: url(../images/Search.svg) no-repeat;
   background-size: cover;
   border: none;
+  outline: none;
 }
 
 .header__search-text {
