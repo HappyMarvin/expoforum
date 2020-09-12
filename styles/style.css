@@ -59,6 +59,7 @@
   width: 175px;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .header__search {
@@ -67,7 +68,14 @@
   background: url(../images/Search.svg) no-repeat;
   background-size: cover;
   border: none;
+  z-index: 2;
 }
+
+.header__search-text {
+  display: none;
+  width: 175px;
+}
+
 
 .header__search:hover {
   cursor: pointer;
