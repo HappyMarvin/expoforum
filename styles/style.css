@@ -12,7 +12,7 @@
   color: #FFFFFF;
 }
 
-.header__menu-wrapper {
+.header__wrapper {
   min-height: 90px;
   max-width: 1360px;
   padding: 0 10px;
@@ -90,13 +90,17 @@
   border: 1px solid #FFFFFF;
 }
 
-.header__title-wrapper {
+.header__content {
   width: 1115px;
   margin: 0 auto;
   min-height: 710px;
   position: relative;
   padding-top: 184px;
+  padding-bottom: 53px;
   box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .header__title {
@@ -110,7 +114,7 @@
   margin: 0;
   font-weight: normal;
   font-size: 24px;
-  line-height: 140%;
+  line-height: 1.4;
   width: 530px;
 }
 
@@ -135,9 +139,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  position: absolute;
-  bottom: 53px;
-  right: 0;
+  align-self: flex-end;
 }
 
 .header__card {
@@ -166,7 +168,7 @@
 .header__card-title {
   font-weight: 500;
   font-size: 21px;
-  line-height: 130%;
+  line-height: 1.3;
   letter-spacing: -0.01em;
   margin: 0;
 }
@@ -252,7 +254,7 @@
 
 .vertical-menu__link_content_footer {
   font-size: 14px;
-  line-height: 135%;
+  line-height: 1.35;
   color: #E0E0E0;
 }
 
@@ -287,7 +289,7 @@
   margin: 0;
   font-weight: 500;
   font-size: 30px;
-  line-height: 130%;
+  line-height: 1.3;
   color: #2E373B;
 }
 
@@ -296,7 +298,7 @@
   text-decoration: none;
   font-weight: 500;
   font-size: 21px;
-  line-height: 130%;
+  line-height: 1.3;
   text-align: right;
 }
 
@@ -333,7 +335,7 @@
   margin: 20px 0 10px 0;
   font-weight: normal;
   font-size: 14px;
-  line-height: 135%;
+  line-height: 1.35;
 }
 
 .event__event-title {
@@ -343,7 +345,7 @@
 .event__link-title {
   font-weight: 500;
   font-size: 21px;
-  line-height: 130%;
+  line-height: 1.3;
   letter-spacing: -0.01em;
   color: #f6404f;
   text-decoration: none;
@@ -353,7 +355,7 @@
   margin: 0;
   font-weight: normal;
   font-size: 16px;
-  line-height: 135%;
+  line-height: 1.35;
 }
 /* !events */
 
@@ -429,7 +431,7 @@
   margin: 0;
   font-weight: 500;
   font-size: 21px;
-  line-height: 130%;
+  line-height: 1.3;
   letter-spacing: -0.01em;
   color: #2E373B;
 }
@@ -508,7 +510,7 @@
 .subscribe__text {
   font-weight: normal;
   font-size: 14px;
-  line-height: 135%;
+  line-height: 1.35;
   color: #E0E0E0;
 }
 
